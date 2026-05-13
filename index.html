@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ornella Luxe | Jewellery Boutique</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">Ornella Luxe</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Collections</a></li>
+            <li><a href="#products">Best Sellers</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="https://wa.me/94740148998?text=Hi%20Ornella%20Luxe,%20I%20want%20to%20ask%20about%20your%20jewellery%20items."
+           class="whatsapp-nav-btn"
+           target="_blank">
+            WhatsApp
+        </a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="small-title">Soft. Elegant. Feminine.</p>
+
+        <h1>Delicate Jewellery for Your Everyday Glow</h1>
+
+        <p>
+            Browse our bracelets, necklaces, anklets, and earrings. Contact us on WhatsApp
+            to ask about availability and place an order.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#products" class="main-btn">View Collection</a>
+            <a href="#contact" class="outline-btn">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="hero-image-area">
+        <div class="hero-card main-jewel-card">
+            <img src="images/bracelet1.jpg" alt="Elegant bracelet">
+        </div>
+
+        <div class="floating-card card-one">
+            <img src="images/necklace1.jpg" alt="Necklace">
+            <p>New Arrivals</p>
+        </div>
+
+        <div class="floating-card card-two">
+            <img src="images/earring1.jpg" alt="Earrings">
+            <p>Best Sellers</p>
+        </div>
+
+        <div class="sparkle sparkle-one">✦</div>
+        <div class="sparkle sparkle-two">✧</div>
+        <div class="sparkle sparkle-three">♡</div>
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="categories" id="categories">
+    <h2>Shop by Category</h2>
+    <p class="section-subtitle">Find your favourite little sparkle.</p>
+
+    <div class="category-grid">
+        <div class="category-card">
+            <img src="images/bracelet1.jpg" alt="Bracelets">
+            <h3>Bracelets</h3>
+            <p>Soft, pretty pieces for daily wear.</p>
+        </div>
+
+        <div class="category-card">
+            <img src="images/necklace1.jpg" alt="Necklaces">
+            <h3>Necklaces</h3>
+            <p>Elegant details for your neckline.</p>
+        </div>
+
+        <div class="category-card">
+            <img src="images/anklet1.jpg" alt="Anklets">
+            <h3>Anklets</h3>
+            <p>Simple sparkle for every step.</p>
+        </div>
+
+        <div class="category-card">
+            <img src="images/earring1.jpg" alt="Earrings">
+            <h3>Earrings</h3>
+            <p>Minimal, cute, and easy to style.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="products" id="products">
+    <h2>Best Sellers</h2>
+    <p class="section-subtitle">Pretty pieces loved by our customers.</p>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <span class="tag">Popular</span>
+            <img src="images/bracelet1.jpg" alt="Heart Charm Bracelet">
+            <h3>Heart Charm Bracelet</h3>
+            <p class="price">Rs. 1,250</p>
+            <button onclick="orderOnWhatsApp('Heart Charm Bracelet')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">New</span>
+            <img src="images/necklace1.jpg" alt="Pearl Drop Necklace">
+            <h3>Pearl Drop Necklace</h3>
+            <p class="price">Rs. 1,850</p>
+            <button onclick="orderOnWhatsApp('Pearl Drop Necklace')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">Elegant</span>
+            <img src="images/anklet1.jpg" alt="Golden Layer Anklet">
+            <h3>Golden Layer Anklet</h3>
+            <p class="price">Rs. 950</p>
+            <button onclick="orderOnWhatsApp('Golden Layer Anklet')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">Trending</span>
+            <img src="images/earring1.jpg" alt="Mini Hoop Earrings">
+            <h3>Mini Hoop Earrings</h3>
+            <p class="price">Rs. 1,100</p>
+            <button onclick="orderOnWhatsApp('Mini Hoop Earrings')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">Gift</span>
+            <img src="images/bracelet2.jpg" alt="Rose Bead Bracelet">
+            <h3>Rose Bead Bracelet</h3>
+            <p class="price">Rs. 1,450</p>
+            <button onclick="orderOnWhatsApp('Rose Bead Bracelet')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">Soft Girl</span>
+            <img src="images/necklace2.jpg" alt="Butterfly Pendant Necklace">
+            <h3>Butterfly Pendant Necklace</h3>
+            <p class="price">Rs. 2,250</p>
+            <button onclick="orderOnWhatsApp('Butterfly Pendant Necklace')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">Cute</span>
+            <img src="images/anklet2.jpg" alt="Pearl Chain Anklet">
+            <h3>Pearl Chain Anklet</h3>
+            <p class="price">Rs. 1,050</p>
+            <button onclick="orderOnWhatsApp('Pearl Chain Anklet')">Ask on WhatsApp</button>
+        </div>
+
+        <div class="product-card">
+            <span class="tag">Daily Wear</span>
+            <img src="images/earring2.jpg" alt="Pearl Stud Earrings">
+            <h3>Pearl Stud Earrings</h3>
+            <p class="price">Rs. 900</p>
+            <button onclick="orderOnWhatsApp('Pearl Stud Earrings')">Ask on WhatsApp</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="why-us">
+    <h2>Why You’ll Love Us</h2>
+
+    <div class="why-grid">
+        <div>
+            <h3>Elegant Styles</h3>
+            <p>Soft, feminine pieces perfect for everyday wear.</p>
+        </div>
+
+        <div>
+            <h3>Affordable Luxury</h3>
+            <p>Pretty jewellery without the high price tag.</p>
+        </div>
+
+        <div>
+            <h3>Beautiful Packaging</h3>
+            <p>Every order is packed with love and care.</p>
+        </div>
+
+        <div>
+            <h3>Easy to Style</h3>
+            <p>Perfect for casual, party, and gift looks.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="about-text">
+        <h2>About Ornella Luxe</h2>
+        <p>
+            Ornella Luxe is a soft and feminine jewellery boutique created for girls who love
+            delicate everyday sparkle. We display carefully selected bracelets, necklaces,
+            anklets, and earrings that are easy to style and perfect for gifting.
+        </p>
+
+        <a href="https://wa.me/94740148998?text=Hi%20Ornella%20Luxe,%20I%20want%20to%20ask%20about%20your%20jewellery%20items."
+           class="secondary-btn"
+           target="_blank">
+            Message on WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Want to ask about availability or place an order? Send us a message on WhatsApp.</p>
+
+    <form id="contactForm">
+        <input type="text" id="customerName" placeholder="Your Name" required>
+        <input type="email" id="customerEmail" placeholder="Your Email" required>
+        <textarea id="customerMessage" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send via WhatsApp</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>© 2026 Ornella Luxe. All rights reserved.</p>
+    <p>Follow us on Instagram | TikTok</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
